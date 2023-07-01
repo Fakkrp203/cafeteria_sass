@@ -42,3 +42,34 @@ h2{
     }
 }
 
+.nosotros-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+}
+
+.nosotros-grid {
+    text-align: left;
+}
+
+.nosotros-grid .nosotros-imagen img {
+    transform: rotate(-6deg);
+    border: 3rem solid #fff;
+    box-shadow: 9px 15px 15px -7px rgba(0,0,0,.35);
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+img {
+    border-style: none;
+}
+
+.nosotros-grid .nosotros-contenido blockquote {
+    margin-left: 0;
+    padding: 1.5rem 1rem;
+    border-left: 5px solid #5e311e;
+    font-weight: 900;
+    font-size: 2rem;
+}

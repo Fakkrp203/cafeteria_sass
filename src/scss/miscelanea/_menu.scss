@@ -90,3 +90,30 @@
    font-size: 3rem;
  }
  
+ .contenido-menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  background-position: bottom right;
+  background-size: 40rem;
+  text-align: left;
+  height: auto;
+}
+.contenido-menu {
+  background-image: url(/src/img/cafe.jpg);
+  background-repeat: no-repeat;
+  // background-position: bottom center;
+  height: 50rem;
+}
+
+.contenido-menu .texto p{
+  font-size: 2rem;
+}
+ 
+.p-b-0 {
+  padding-bottom: 0;
+}
+
+.contenido-principal p {
+  line-height: 2;
+}

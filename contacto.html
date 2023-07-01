@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- header.scss -->
-    <header class="header header-nosotros">
+    <header class="header header-inicio header-contacto">
         <div class="contenedor contenido-header">
             <div class="barra">
                 <div class="logo">
@@ -21,8 +21,8 @@
 
                 <!-- navegacion.scss -->
                 <nav class="nav-principal">
-                    <a href="index.html">Inicio</a>
-                    <a class="activo" href="nosotros.html">Nosotros</a>
+                    <a class="activo" href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
                     <a href="proceso.html">Proceso</a>
                     <a href="menu.html">Menú</a>
                     <a href="galeria.html">Galería</a>
@@ -31,18 +31,58 @@
             </div>
 
             <div class="texto-header text-center">
-                <h1>Una nueva experiencia cada día</h1>
+                <h1>Disfruta una deliciosa taza de café</h1>
             </div>
         </div>
     </header>
 
-    <!-- principal.scss -->
+
     <main class="contenido-principal contenedor text-center">
-    
+        <h2><span>Reserva tu</span>Mesa</h2>
+
+        <div class="contacto">
+            <form action="" class="formulario">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Tu Nombre" required="">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Tu Email" required="">
+                </div>
+
+                <div class="campo">
+                    <label for="personas">Número Personas</label>
+                    <select name="" id="personas" required="">
+                        <option value="" disabled="" selected="">--Seleccione--</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">+5</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="hora">Hora</label>
+                    <input type="time" id="hora" min="07:00" max="23:00">
+                </div>
+
+                <div class="campo">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha">
+                </div>
+
+                <input class="btn" type="submit" value="Enviar">
+            </form>
+        </div>
+
     </main>
+</div></main>
     <!-- footer.scss -->
     <footer class="footer">
-        <div class="footer-contenido contenedor">
+        <div class="footer-contenido contenedor contenido-principal">
             <div class="footer-grid">
                 <div class="footer-texto">
                     <h3>Ubicación</h3>
@@ -51,7 +91,7 @@
                 </div>
 
                 <div class="footer-texto">
-                    <h3>Reserevación</h3>
+                    <h3>Reservación</h3>
                     <p>Tel. 381-5687956</p>
                     <a href="tel:3815687956">Llamar</a>
                 </div>

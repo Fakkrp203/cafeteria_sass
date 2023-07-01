@@ -1,16 +1,17 @@
 .footer {
-
-    padding: 40px 0;
+    padding: 40px;
+    padding-bottom: 3rem;
     color: #fff;
     line-height: 1.15;
     font-family: "Raleway",sans-serif;
     font-size: 1.6rem;
     box-sizing: inherit;
     background-color: #5e311e;
+    position: relative;
+    text-align: center;
+    margin-top: -40px;
   }
 
-  
-  
   .footer-contenido .contenedor{
     display: flex;
     flex-wrap: wrap;
@@ -44,9 +45,10 @@
   }
   
   .footer-texto h3 {
-    font-size: 18px;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 15px;
+    color: $secundario;
   }
   
   .footer-texto p {
@@ -54,7 +56,6 @@
   }
   
   .footer-texto a {
-    color: #fff;
     text-decoration: none;
     font-weight: 500;
   }
@@ -68,9 +69,10 @@
   }
   
   .copyright {
+    color: $blanco;
     margin-top: 30px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
   }
   
   @media (max-width: 768px) {

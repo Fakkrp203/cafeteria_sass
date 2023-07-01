@@ -24,6 +24,23 @@
     background-image: url(../../src/img/header_nosotros.jpg);
 }
 
+
+.header-galeria {
+    background-image: url(../../src/img/header_galeria.jpg);
+}
+
+.header-menu{
+    background-image: url(../../src/img/header_menu.jpg);
+}
+
+.header-proceso{
+    background-image: url(../../src/img/header_proceso.jpg);
+}
+
+.header-contacto{
+    background-image: url(../../src/img/header_contacto.jpg);
+}
+
 .contenido-header{
     position: relative;
     padding-top: 5rem;
@@ -49,3 +66,4 @@
         font-size: 5rem;
     }
 }
+

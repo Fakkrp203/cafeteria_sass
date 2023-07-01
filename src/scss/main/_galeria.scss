@@ -1,16 +1,11 @@
 .experiencia{
     margin-top: 5rem;
+}
 
-    .btn_danger{
-        @include boton(red, white);
-
-    }
-
-    .btn_susess{
-
-        @include boton(blue, white);
-
-    }
+.experiencia_galeria{
+    padding: 10rem;
+    margin-top: -10rem;
+    position: relative;
 }
 
 .galeria{
